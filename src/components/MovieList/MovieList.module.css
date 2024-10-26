@@ -1,0 +1,8 @@
+.movieList{
+    margin-left: 20px;
+    ul {
+        display: flex;
+        gap: 4px;
+        flex-direction: column
+    }
+}

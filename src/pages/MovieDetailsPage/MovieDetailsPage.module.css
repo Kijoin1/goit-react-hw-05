@@ -1,0 +1,54 @@
+.goBackBtn {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.tagline {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 600px;
+  gap: 8px;
+  .overview {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .descriptionText {
+    font-size: 18px;
+  }
+  .genres {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+
+.container {
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.additionalInfo {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  .additionalInfoTitle {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  ul {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
